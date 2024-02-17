@@ -1,0 +1,46 @@
+body{
+    background-color: bisque;
+}
+
+.tab__top{
+    display: flex;
+    gap: 2px;
+}
+
+.tab__item{
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tab__body{
+    background-color: white;
+    width: 600px; 
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-top: 0px; 
+    padding: 20px; 
+}
+h2{
+margin-top: 0px;
+}
+
+.tab__content{
+    display: none;
+}
+
+.content-active{
+    display: block;
+}
+
+.item-active{
+    background-color: white;
+    color: aqua;
+    border-top: 2px solid aqua;
+}
